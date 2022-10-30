@@ -28,6 +28,7 @@ public class AutoitFileUpload {
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(60000));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Download")));
 		driver.findElement(By.linkText("Download")).click();
+		System.out.println("my name is nagarjuna");
 		
 }
 }
